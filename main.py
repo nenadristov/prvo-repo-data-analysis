@@ -27,10 +27,10 @@ def insert_sale(sesija, employee_id, product_id):
     print("Prodazbata e zabelezana")
     return sale1
 
-print("Novi promeni so GIT")
+print("Novi promeni vo nov branch")
+ime = input("NVesete go vaseto ime: ")
+print(f"Zdravo {ime}")
 
-employee = sesija.query(Employee).filter_by(id=7)
-print(employee)
 
 
 
