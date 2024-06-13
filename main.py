@@ -27,24 +27,7 @@ def insert_sale(sesija, employee_id, product_id):
     print("Prodazbata e zabelezana")
     return sale1
 
-
-#e = insert_employee(sesija, "Stojan", "mail1@example.com", 30, "Developer", 60000, 2)
-#p = insert_product(sesija, "banani", "100")
-#s = insert_sale(sesija, 2, 3)
-
-"""emp = sesija.query(Employee).all()
-for employee in emp:
-    print(f"{employee.id}. {employee.full_name} - {employee.position}")"""
-
-#employees = sesija.query(Employee).filter_by(position = "Sales").all()
-#employees = sesija.query(Employee).filter_by(position = "Developer").limit(3).all()
-
-#for employee in employees:
-#    print(f"{employee.id}. {employee.full_name} - {employee.position}")
-
-"""employee = sesija.query(Employee).filter_by(years_in_company = 5).all()
-employee.salary = 50000
-sesija.commit()"""
+print("Novi promeni so GIT")
 
 employee = sesija.query(Employee).filter_by(id=7)
 print(employee)
